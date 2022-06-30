@@ -33,6 +33,8 @@ function hantei() {
        }else{
         console.log("まちがい．残念でした答えは "+kotae+" です．");
          }
+         let presult = document.querySelector('p#result');
+         let a = kaisu+'回目の予想:'
         
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
